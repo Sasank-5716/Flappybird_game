@@ -100,6 +100,15 @@ while True:
     
     # Drawing
     screen.fill(SKY_BLUE)
+
+    # Draw pipes
+    for pipe_pair in pipes:
+        pygame.draw.rect(screen, GREEN, pipe_pair[0])
+        pygame.draw.rect(screen, GREEN, pipe_pair[1])
+    
+    # Draw bird
+    pygame.draw.ellipse(screen, RED, bird)
+    pygame.draw.ellipse(screen, BLACK, bird, 2)
     
      # Draw score
     score_text = font.render(f"Score: {int(score)}", True, WHITE)
