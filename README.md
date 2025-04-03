@@ -2,8 +2,6 @@
 
 A simple Flappy Bird clone built with Pygame.
 
-![Game Screenshot](screenshot.png) *(You can add a screenshot later)*
-
 ## Features
 - Classic Flappy Bird gameplay
 - Score tracking
